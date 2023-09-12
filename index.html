@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Car Dekho</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- phone-nav -->
+    <div class="phone-nav flex">
+        <ul>
+            <li>
+              NEw cars
+              <span>
+                <i class="fa-solid fa-caret-down"></i>
+              </span>
+            </li>
+            <li>
+              buy & sell used cars
+              <span>
+                <i class="fa-solid fa-caret-down"></i>
+              </span>
+            </li>
+            <li>
+              news, reviews & videos
+              <span>
+                <i class="fa-solid fa-caret-down"></i>
+              </span>
+            </li>
+            <li>
+              car services
+              <span>
+                <i class="fa-solid fa-caret-down"></i>
+              </span>
+            </li>
+          </ul>
+    </div>
+    <!-- navbar -->
+    <nav class="nav-bar flex">
+      <div class="upper-nav-bar flex">
+        <span class="bar">
+            <i class="fa-solid fa-bars"></i>
+        </span>
+        <div class="logo">
+          <img src="./assets/carDekho-newLogo.svg" alt="logo" />
+        </div>
+        <div class="input-div">
+          <input type="text" placeholder="Search Cars eg. Honda Elevate" />
+          <span>
+            <i class="fa-solid fa-magnifying-glass" style="color: #ffffff"></i>
+          </span>
+        </div>
+        <div class="right-nav flex">
+          <div class="link">
+            <a href="#">English</a>
+            <span>
+              <i class="fa-solid fa-caret-down"></i>
+            </span>
+          </div>
+          <span>
+            <i class="fa-regular fa-heart"></i>
+          </span>
+          <div class="user flex">
+            <span>
+              <i class="fa-regular fa-user"></i>
+            </span>
+            <p>Login / Register</p>
+          </div>
+        </div>
+      </div>
+      <div class="border"></div>
+      <div class="lower-nav-bar flex">
+        <ul class="flex">
+          <li>
+            NEw cars
+            <span>
+              <i class="fa-solid fa-caret-down"></i>
+            </span>
+          </li>
+          <li>
+            buy & sell used cars
+            <span>
+              <i class="fa-solid fa-caret-down"></i>
+            </span>
+          </li>
+          <li>
+            news, reviews & videos
+            <span>
+              <i class="fa-solid fa-caret-down"></i>
+            </span>
+          </li>
+          <li>
+            car services
+            <span>
+              <i class="fa-solid fa-caret-down"></i>
+            </span>
+          </li>
+        </ul>
+        <p class="flex">
+          <span>
+            <i class="fa-solid fa-location-dot"></i>
+          </span>
+          select City
+          <span>
+            <i class="fa-solid fa-caret-down"></i>
+          </span>
+        </p>
+      </div>
+    </nav>
+
+    <section class="hero-section">
+      <div class="box flex">
+        <h1>Find your right car</h1>
+        <div class="btn flex">
+          <button>New Car</button>
+          <button>Used Car</button>
+        </div>
+        <form>
+          <div class="radio-box flex">
+            <div class="radio">
+              <input type="radio" name="car" id="bug" />
+              <label for="bug">Buy Budget</label>
+            </div>
+            <div class="radio">
+              <input type="radio" name="car" id="brand" />
+              <label for="brand">Buy Brand</label>
+            </div>
+          </div>
+          <div class="option-box flex">
+            <select name="car" id="car">
+              <option value="select">Select Budget</option>
+              <option value="money">1-5 Lakh</option>
+              <option value="money">3-5 Lakh</option>
+              <option value="money">5-8 Lakh</option>
+              <option value="money">1-5 Lakh</option>
+              <option value="money">1-5 Lakh</option>
+            </select>
+            <select name="car" id="cars">
+              <option value="select">All Vehicle Types</option>
+              <option value="type">SUV</option>
+              <option value="type">Sedan</option>
+              <option value="type">SUV</option>
+              <option value="type">MUV</option>
+              <option value="type">SUV</option>
+            </select>
+          </div>
+        </form>
+        <button class="search">Search</button>
+      </div>
+    </section>
+    <!-- most searched section-------------- -->
+    <section class="search-car-section flex">
+      <div class="container flex">
+        <h2>The most searched cars</h2>
+        <ul class="flex">
+          <li>SUV</li>
+          <li>Hatchback</li>
+          <li>Sedan</li>
+          <li>MUV</li>
+          <li>Luxury</li>
+        </ul>
+        <div class="card-box flex">
+          <div class="card">
+            <img
+              src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRsAnQioJbdTPLSQ11dvB8VNqGhqOOijnPN7hJ5FvqKej_NGD_q"
+              alt=""
+            />
+            <h3>Tata Nexon</h3>
+            <p>₹ 8 - 14.3 Lakh</p>
+            <button>Buy</button>
+          </div>
+          <div class="card">
+            <img
+              src="https://stimg.cardekho.com/images/carexteriorimages/630x420/Mahindra/Thar/10743/1690192572470/front-left-side-47.jpg?tr=w-456"
+              alt=""
+            />
+            <h3>Mahindra Thar</h3>
+            <p>₹ 10.54 - 16.78 Lakh</p>
+            <button>Buy</button>
+          </div>
+          <div class="card">
+            <img
+              src="https://stimg.cardekho.com/images/carexteriorimages/630x420/Hyundai/Exter/9482/1684926596004/front-left-side-47.jpg?tr=w-456"
+              alt=""
+            />
+            <h3>Hyundai Exter</h3>
+            <p>₹ 6 - 10.10 Lakh</p>
+            <button>Buy</button>
+          </div>
+          <div class="card">
+            <img
+              src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRsAnQioJbdTPLSQ11dvB8VNqGhqOOijnPN7hJ5FvqKej_NGD_q"
+              alt=""
+            />
+            <h3>Tata Nexon</h3>
+            <p>₹ 8 - 14.3 Lakh</p>
+            <button>Buy</button>
+          </div>
+          <div class="card">
+            <img
+              src="https://stimg.cardekho.com/images/carexteriorimages/630x420/Mahindra/Thar/10743/1690192572470/front-left-side-47.jpg?tr=w-456"
+              alt=""
+            />
+            <h3>Mahindra Thar</h3>
+            <p>₹ 10.54 - 16.78 Lakh</p>
+            <button>Buy</button>
+          </div><div class="card">
+            <img
+              src="https://stimg.cardekho.com/images/carexteriorimages/630x420/Mahindra/Thar/10743/1690192572470/front-left-side-47.jpg?tr=w-456"
+              alt=""
+            />
+            <h3>Mahindra Thar</h3>
+            <p>₹ 10.54 - 16.78 Lakh</p>
+            <button>Buy</button>
+          </div>
+      </div>
+    </section>
+    <!-- latest car --------------------------->
+    <section class="search-car-section flex">
+      <div class="container flex">
+        <h2>Latest cars</h2>
+        <ul class="flex">
+          <li>SUV</li>
+          <li>Hatchback</li>
+          <li>Sedan</li>
+          <li>MUV</li>
+          <li>Luxury</li>
+        </ul>
+        <div class="card-box flex">
+          <div class="card">
+            <img
+              src="https://stimg.cardekho.com/images/carexteriorimages/630x420/Hyundai/i20/9471/1694165556459/front-left-side-47.jpg?tr=w-456"
+              alt=""
+            />
+            <h3>Hyundai i20</h3>
+            <p>₹ 6.99 - 11.01 Lakh</p>
+            <button>Check september offers</button>
+          </div>
+        
+          <div class="card">
+            <img
+              src="https://stimg.cardekho.com/images/carexteriorimages/630x420/Maruti/Swift/10402/1688128138547/front-left-side-47.jpg?tr=w-456"
+              alt=""
+            />
+            <h3>Maruti Swift</h3>
+            <p>₹ 5.99 - 9.03 Lakh</p>
+            <button>Check september offers</button>
+          </div>
+         <div class="card">
+            <img
+              src="https://stimg.cardekho.com/images/carexteriorimages/630x420/Hyundai/i20/9471/1694165556459/front-left-side-47.jpg?tr=w-456"
+              alt=""
+            />
+            <h3>Hyundai i20</h3>
+            <p>₹ 6.99 - 11.01 Lakh</p>
+            <button>Check september offers</button>
+          </div>
+          <div class="card">
+            <img
+              src="https://stimg.cardekho.com/images/carexteriorimages/630x420/Maruti/Swift/10402/1688128138547/front-left-side-47.jpg?tr=w-456"
+              alt=""
+            />
+            <h3>Maruti Swift</h3>
+            <p>₹ 5.99 - 9.03 Lakh</p>
+            <button>Check september offers</button>
+          </div>
+          <div class="card">
+            <img
+              src="https://stimg.cardekho.com/images/carexteriorimages/630x420/Maruti/Brezza/10388/1694424068944/front-left-side-47.jpg?tr=w-456"
+              alt=""
+            />
+            <h3>Hyundai i20</h3>
+            <p>₹ 6.99 - 11.01 Lakh</p>
+            <button>Check september offers</button>
+          </div>
+          <div class="card">
+            <img
+              src="https://stimg.cardekho.com/images/carexteriorimages/630x420/Maruti/Brezza/10388/1694424068944/front-left-side-47.jpg?tr=w-456"
+              alt=""
+            />
+            <h3>Hyundai i20</h3>
+            <p>₹ 6.99 - 11.01 Lakh</p>
+            <button>Check september offers</button>
+          </div>
+      </div>
+    </section>
+
+    <!-- footer----------------------- -->
+
+    <footer class="footer flex">
+        <div class="footer-container flex">
+        <div>
+        <p>ABOUT CARDEKHO</p>
+        <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Careers With Us</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Corporate Policies</a></li>
+            <li><a href="#">Investors</a></li>
+            <li><a href="#">FAQs</a></li>
+        
+        </ul>
+        </div>
+        <div>
+        <p>CONNECT WITH US</p>
+        <ul>
+            <li><a href="#">Feedback</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Advertise with Us</a></li>
+        
+        
+        </ul>
+        </div>
+        <div>
+        <p>OTHERS</p>
+        <ul>
+            <li><a href="#">Health Insurance</a></li>
+            <li><a href="#">Term Insurance</a></li>
+            <li><a href="#">Life Insurance</a></li>
+            <li><a href="#">Crack-ED
+            </a></li>
+            <li><a href="#">Personal loan</a></li>
+            <li><a href="#">TyreDekho</a></li>
+            <li><a href="#">BatteryDekho</a></li>
+            <li><a href="#">Girnar Vision Fund</a></li>
+        </ul>
+        </div>
+        <div class="img-footer flex">
+        <p>EXPERIENCE CARDEKHO APP </p>
+        <div class="img-box">
+            <img src="https://stimg.cardekho.com/pwa/img/appstore.png" alt="">
+            <img src="https://stimg.cardekho.com/pwa/img/playstore.png" alt="">
+        </div>
+        <div class="img-footer-2 flex">
+            <p>CARDEKHO GROUP VENTURES</p>
+            <div>
+                <img src="https://stimg.cardekho.com/pwa/img/footer-BdLogo.svg" alt="">
+                <img src="https://stimg.cardekho.com/pwa/img/footer-rupyyLogo.svg" alt="">
+            </div>
+            <div>
+                <img src="https://stimg.cardekho.com/pwa/img/footer-zwLogo.svg" alt="">
+                <img src="https://stimg.cardekho.com/pwa/img/footer-IdLogo.svg" alt="">
+            </div>
+        </div>
+        </div>
+    
+    </div> </footer>
+    <footer class="mini-footer flex">
+            <p>© 2023 Girnar Software Pvt. Ltd.</p>
+            <div class="flex">
+            <p>Connect:</p>
+            <div class="flex">
+                <span>
+                    <i class="fa-brands fa-youtube"></i>
+                </span>
+                <span>
+                    <i class="fa-brands fa-x-twitter"></i>
+                </span>
+                <span>
+                    <i class="fa-brands fa-instagram"></i>
+                </span>
+                <span>
+                    <i class="fa-brands fa-linkedin"></i>
+                </span>
+            </div>
+    
+        </div>
+    </footer>
+  </body>
+  <script src="./script.js"></script>
+  <script
+    src="https://kit.fontawesome.com/99611f3274.js"
+    crossorigin="anonymous"
+  ></script>
+</html>
